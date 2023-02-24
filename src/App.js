@@ -1,4 +1,5 @@
 import "./App.css";
+import Card from "./components/Card";
 import Expenses from "./components/Expenses";
 
 function App() {
@@ -10,12 +11,12 @@ function App() {
   ];
 
   return (
-    <div>
+    <Card>
       <h2>Let's get Started</h2>
       <div>
         <Expenses items={expenses}></Expenses>
       </div>
-    </div>
+    </Card>
   );
 }
 
