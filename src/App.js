@@ -2,7 +2,7 @@ import "./App.css";
 import Card from "./components/UI/Card";
 import Expenses from "./components/Expenses/Expenses";
 
-function App() {
+const App = () => {
   const expenses = [
     { title: "Car Insurance", amount: 29257.11, date: new Date(2021, 2, 28) },
     { title: "Karate Lesson", amount: 5297.11, date: new Date(2020, 3, 25) },
@@ -18,6 +18,6 @@ function App() {
       </div>
     </Card>
   );
-}
+};
 
 export default App;
