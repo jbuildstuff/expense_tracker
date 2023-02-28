@@ -1,5 +1,6 @@
 import "./App.css";
 import Card from "./components/UI/Card";
+
 import NewExpense from "./components/NewExpense/NewExpense";
 import Expenses from "./components/Expenses/Expenses";
 
@@ -11,9 +12,14 @@ const App = () => {
     { title: "Beauty Products", amount: 2397.11, date: new Date(2021, 5, 1) },
   ];
 
+  const addExpenseHandler = (expense) => {
+    console.log("In App Js");
+    console.log(expenses);
+  };
+
   return (
     <Card>
-      <NewExpense />
+      <NewExpense onAddExpense={addExpenseHandler} />
       <div>
         <Expenses items={expenses}></Expenses>
       </div>
