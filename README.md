@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+![Alt text](https://github.com/jbuildstuff/expense_tracker/blob/master/images/ui.png "initial ui show")
+
 ## Available Scripts
 
 In the project directory, you can run:
